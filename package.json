@@ -1,0 +1,20 @@
+{
+  "name": "neg-edge-flow",
+  "version": "1.0.0",
+  "description": "Negative & Edge Case Flow",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio run src/config/wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "Eszter Jagadics",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^9.26.1",
+    "@wdio/cli": "^9.26.1",
+    "@wdio/local-runner": "^9.26.1",
+    "@wdio/mocha-framework": "^9.26.1",
+    "@wdio/spec-reporter": "^9.26.1",
+    "@wdio/visual-service": "^9.2.0"
+  }
+}
