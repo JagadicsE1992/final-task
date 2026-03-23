@@ -1,0 +1,1 @@
+invalid selector: WebDriverError: Given xpath expression ".//data-test[normalize-space(text()) = ""error""] | .//data-test[not(.//data-test[normalize-space(text()) = ""error""]) and normalize-space() = ""error""]" is invalid: SyntaxError: Document.evaluate: The expression is not a legal expression when running "element" with method "POST"
