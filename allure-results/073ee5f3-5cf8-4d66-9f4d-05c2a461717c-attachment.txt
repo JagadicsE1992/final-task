@@ -1,3 +1,0 @@
-invalid selector: WebDriverError: invalid selector: Unable to locate an element with the xpath expression .//data-test[normalize-space(text()) = ""error""] | .//data-test[not(.//data-test[normalize-space(text()) = ""error""]) and normalize-space() = ""error""] because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string './/data-test[normalize-space(text()) = ""error""] | .//data-test[not(.//data-test[normalize-space(text()) = ""error""]) and normalize-space() = ""error""]' is not a valid XPath expression.
-  (Session info: MicrosoftEdge=146.0.3856.72) when running "element" with method "POST"
