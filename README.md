@@ -11,7 +11,7 @@ form validation, and wait strategies.
 - Browsers: **Firefox** and **Microsoft Edge** (parallel execution)
 
 ## Project Structure
-
+```
 neg-edge-flow/
 ├── src/
 │   ├── features/
@@ -28,8 +28,7 @@ neg-edge-flow/
 ├── src/config/
 │   └── wdio.conf.js
 └── README.md
-
-
+```
 ## Prerequisites
 
 - Node.js (v18 or higher)
