@@ -1,7 +1,6 @@
 //Grouping the common steps
 const {Given, When, Then} = require('@cucumber/cucumber');
 const LoginPage = require('../po/login.page');
-const InventoryPage = require('../po/inventory.page');
 
 Given('I am on the login page', async()=>{
     await LoginPage.open();

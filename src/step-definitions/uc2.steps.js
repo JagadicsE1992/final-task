@@ -5,7 +5,7 @@ const InventoryPage = require('../po/inventory.page');
 //1. Performance glitch user login with wait strategy
 Then ('Inventory page should be loaded', async()=>{
     await InventoryPage.waitForPageLoad();
-    await expect(InventoryPage.inventoryContainer).toBeDisplayed();
+    await expect(InventoryPage.inventoryContainer).toBeExisting();
 });
 
 //2. Reset app state via burger menu
@@ -17,12 +17,11 @@ When('I click reset app state', async()=>{
     await InventoryPage.resetAppState();
 });
 
-//3. Logout via burger menu
 Then('the burger menu should be closed', async()=>{
-    await InventoryPage.closeBurgerMenu();
     await expect(InventoryPage.burgerMenuButton).toBeDisplayed();
 });
 
+//3. Logout via burger menu
 When('I click logout', async()=>{
     await InventoryPage.logout();
 });

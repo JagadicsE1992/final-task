@@ -1,16 +1,8 @@
 class LoginPage{
-    get userNameInput(){
-        return $('#user-name');
-    }
-    get passwordInput(){
-        return $('#password');
-    }
-    get loginButton(){
-        return $('#login-button');
-    }
-    get errorMessage(){
-        return $('[data-test="error"]');
-    }
+    get userNameInput(){return $('#user-name');}
+    get passwordInput(){return $('#password');}
+    get loginButton(){return $('#login-button');}
+    get errorMessage(){return $('[data-test="error"]');}
 
     async open(){
         await browser.url('/');

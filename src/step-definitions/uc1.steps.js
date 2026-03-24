@@ -14,7 +14,7 @@ When('I enter username {string} without a password', async(username)=>{
 
 //3. Checkout without postal code shows error
 When('I navigate to the checkout page', async()=>{
-    await $('.shopping_cart_link').click();
+    await CheckoutPage.goToCart();
     await CheckoutPage.proceedToCheckout();
 
 });
