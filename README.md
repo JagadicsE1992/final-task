@@ -38,8 +38,8 @@ neg-edge-flow/
 
 ## Installation
 ```bash
-git clone <repository-url>
-cd neg-edge-flow
+git clone https://github.com/JagadicsE1992/final-task.git
+cd final-task
 npm install
 ```
 
