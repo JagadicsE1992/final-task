@@ -54,6 +54,7 @@ npm test
 ### UC-1: Form Validation (Negative Testing)
 
 | Scenario | Expected Result |
+|---|---|
 | Login with empty username and password | "Epic sadface: Username is required" |
 | Login with username only | "Epic sadface: Password is required" |
 | Checkout without postal code | "Error: Postal Code is required" |
@@ -61,6 +62,7 @@ npm test
 ### UC-2: Handling Latency (Wait Strategies)
 
 | Scenario | Description |
+|---|---|
 | Login with performance_glitch_user | Framework waits gracefully without sleep/pause |
 | Reset App State | Via burger menu |
 | Logout | Via burger menu, verifies return to login page |
